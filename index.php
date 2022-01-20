@@ -97,7 +97,7 @@ div {
 </div>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+	<script bronto-popup-id="05fc51f2-610b-4a02-8f22-67d610bdc4e4" src="https://cdn.bronto.com/popup/delivery.js"></script>
 </body>
 
 </html>
