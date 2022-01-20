@@ -84,46 +84,16 @@ div {
      id="email_add"
      name="email_add"
      placeholder="Your Email.."
-    ><input
+    >
+      
+      <input type="hidden" name="_ri_" value="X0Gzc2X%3DAQzbHSQGvtY8NE9YiqomHScHwFOrfaILWtHhr8dzdfVwjpnpgHlpgneHmgJoXX0Gzc2X%3DAQzbHSQGza4rOyRA6zcHLwfe26gJ6mpkrzfozbWYeG5pR">
+	    <input type="hidden" name="_ei_" value="EMK8-gWV6URlZbB-iCqi5R0">
+        <input type="hidden" name="_di_" value="6h854ljj6grhm1utufmhqdrbgoifm66094vdsc96bdrvg6djihd0">
+      
+      <input
        type="submit"
        value="Submit"
-      ><input
-   type="hidden"
-   name="CAMPAIGN_"
-   value="EMAIL_POP_UP_MK"
-  ><input
-   type="hidden"
-   name="charset_"
-   value="UTF-8"
-  ><input
-   type="hidden"
-   name="_Sent_"
-   value="2022-01-20 03:39:04.625"
-  ><input
-   type="hidden"
-   name="_LID_"
-   value="74141"
-  ><input
-   type="hidden"
-   name="_ri_"
-   value="X0Gzc2X%3DAQzbHSQGvtY8NE9YiqomHScHwFOrfaILWtHhr8dzdfVwjpnpgHlpgneHmgJoXX0Gzc2X%3DAQzbHSQGzdzfhE8kezevUMOzfHzeCK4bfHU2jbi2wKuLzgO"
-  >
-<input
-   type="hidden"
-   name="_ei_"
-   value="EYCtPakOlYxKSMyYnIpt-As"
-  >
-<input
-   type="hidden"
-   name="_di_"
-   value="bfa5hvpl1g5pkv58sf6b2ihuifvafj4gcg24lm1h5lb1u32fc36g"
-  >
-<input
-   type="hidden"
-   name="__HIDDEN_FIELD_NAMES__"
-   value="CAMPAIGN_;charset_;_Sent_;_LID_;_ri_;_ei_;_di_;__HIDDEN_FIELD_NAMES__"
-  >
-
+      >
 
   </form>
 </div>
