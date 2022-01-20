@@ -8,7 +8,41 @@
     <title>Document</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
+
+ <style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}</style>
+    
+ </head>
+    
 
 <body>
 
@@ -38,6 +72,60 @@
     <?php
     echo "This is just an example";
     ?>
+</div>
+    
+ <h3>GET ON THE LIST</h3>
+
+<div>
+  <form action="https://rsp.qa1.responsys.net/pub/rf"
+   method="POST">
+    <label for="fname">Enter Your Email Address</label><input
+     type="text"
+     id="email_add"
+     name="email_add"
+     placeholder="Your Email.."
+    ><input
+       type="submit"
+       value="Submit"
+      ><input
+   type="hidden"
+   name="CAMPAIGN_"
+   value="EMAIL_POP_UP_MK"
+  ><input
+   type="hidden"
+   name="charset_"
+   value="UTF-8"
+  ><input
+   type="hidden"
+   name="_Sent_"
+   value="2022-01-20 03:31:48.597"
+  ><input
+   type="hidden"
+   name="_LID_"
+   value="74141"
+  ><input
+   type="hidden"
+   name="_ri_"
+   value="X0Gzc2X%3DAQzbHSQGvtY8NE9YiqomHScHwFOrfaILWtHhr8dzdfVwjpnpgHlpgneHmgJoXX0Gzc2X%3DAQzbHSQGzdzfhE8kezevUMOzfHzeCK4bfHU2jbi2wKuLzgO"
+  >
+<input
+   type="hidden"
+   name="_ei_"
+   value="EN92mz8kaQzSAHLZg-xsYag"
+  >
+<input
+   type="hidden"
+   name="_di_"
+   value="ju88gb7orcthuvr0vv9f4roillqsss3a36bvt3s8dqjseabhpppg"
+  >
+<input
+   type="hidden"
+   name="__HIDDEN_FIELD_NAMES__"
+   value="CAMPAIGN_;charset_;_Sent_;_LID_;_ri_;_ei_;_di_;__HIDDEN_FIELD_NAMES__"
+  >
+
+
+  </form>
 </div>
 
 
